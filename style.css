@@ -1,0 +1,29 @@
+.bg-black {
+  background-color: black;
+}
+.logo {
+  font-size: 50px;
+  display: flex;
+ align-items: center;
+ color: white;
+padding-left: 30px;
+  
+  
+}
+.header-height {
+  height: 90px;
+}
+.header-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white; 
+  font-size: 20px;
+  text-shadow: 0 0 2px grey;
+
+}
+.topRight{
+  margin-left: 3.0rem;
+  margin-right: 3.0rem;
+}
+
