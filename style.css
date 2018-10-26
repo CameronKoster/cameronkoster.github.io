@@ -15,7 +15,6 @@ text-shadow: 0 0 5px black;
   font-size: 22px;
   text-shadow: 0 0 12px black;
   justify-content: flex-end;
-
 }
 
 .about {
@@ -32,4 +31,26 @@ margin-left: 37px;
   background-size: cover;
 }
 
+.aboutstyle {
+background-color: rgb(211, 209, 209);
+}
 
+
+
+.aboutme {
+display: flex;
+justify-content: center;
+text-align: center;
+text-decoration: underline;
+text-shadow: 0 0 10px white;
+align-items: center;
+
+}
+
+.aboutmetext {
+  display: flex;
+  justify-content: center;
+text-align: center;
+text-shadow: 0 0 10px white;
+align-items: center;
+}
