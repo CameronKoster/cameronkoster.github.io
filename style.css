@@ -18,8 +18,9 @@ text-shadow: 0 0 5px black;
 }
 
 .about {
-margin-top: 70px;
-margin-left: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact {
@@ -30,4 +31,6 @@ margin-left: 37px;
   min-height: 100vh;
   background-size: cover;
 }
-
+.about-para {
+  text-align: center;
+}
