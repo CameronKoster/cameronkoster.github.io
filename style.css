@@ -1,4 +1,6 @@
-
+.bodycolor {
+  background-color: black;
+}
 .logo {
   font-size: 100px;
   display: flex;
@@ -31,10 +33,30 @@ align-items: flex-end;
  
 }
 .bg {
+  
   background-image: url("https://b.kisscc0.com/20180517/ufe/kisscc0-computer-programming-computer-software-programming-5afd6ddd88e210.8758423315265581735607.jpg");
 height: 7.2in;
 background-size: cover;
 }
 .about-para {
   text-align: center;
+}
+.badges {
+  height: 4.5in;
+}
+h1 {
+  padding-top: 22px;
+  text-align: center;
+  text-shadow: 0 0 10px white;
+}
+.badges13 {
+  font-size: 1in;
+display: flex;
+text-shadow: 0 0 10px white;
+}
+
+.badges2 {
+  font-size: 1in;
+  display: flex;
+text-shadow: 0 0 10px white;
 }
