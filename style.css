@@ -26,6 +26,11 @@ align-items: flex-end;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+}
+
+.buffer{
+  padding-bottom: 5vh;
 }
 
 .contact {
@@ -60,7 +65,7 @@ text-shadow: 0 0 10px white;
 .badges2 {
   font-size: 1in;
   display: flex;
-text-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px white;
 }
 
 
