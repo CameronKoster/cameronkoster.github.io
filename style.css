@@ -54,7 +54,10 @@ h1 {
   text-align: center;
   text-shadow: 0 0 10px white;
   font-family: 'Signika', sans-serif;
+}
 
+h2 {
+  color: white;
 }
 .badges13 {
   font-size: 1in;
@@ -67,9 +70,22 @@ text-shadow: 0 0 10px white;
   display: flex;
   text-shadow: 0 0 10px white;
 }
-
+.bg-body {
+  background-color: orange;
+}
 
 
 .alltext {
   font-family: 'Signika', sans-serif;
+}
+
+.footer {
+height: 3in;
+}
+
+h3 {
+  color: black;
+}
+.footer-bg {
+  background-color: aqua;
 }
