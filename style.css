@@ -76,7 +76,9 @@ h3 {
   color: black;
 }
 .footer-bg {
-  background-color: aqua;
+  background-color: black;
+  color: white;
+  
 }
 .picture{
 display: flex; 
