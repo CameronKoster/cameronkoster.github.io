@@ -1,6 +1,6 @@
-.bodycolor {
+/* .bodycolor {
   background-color: black;
-}
+} */
 .logo {
   font-size: 100px;
   display: flex;
@@ -24,7 +24,7 @@ align-items: flex-end;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: black;
 }
 .buffer{
   padding-bottom: 5vh;
@@ -51,17 +51,17 @@ h1 {
   font-family: 'Signika', sans-serif;
 }
 h2 {
-  color: white;
+  color: black;
 }
 .badges13 {
   font-size: 1in;
 display: flex;
-text-shadow: 0 2px black;
+/* text-shadow: 0 2px black; */
 }
 .badges2 {
   font-size: 1in;
   display: flex;
-  text-shadow: 0 2px black;
+  /* text-shadow: 0 2px black; */
 }
 .bg-body {
   background-color: #edeeef;
@@ -71,15 +71,13 @@ text-shadow: 0 2px black;
 }
 .footer {
 height: 3in;
+background-color: white;
+color: black;
 }
 h3 {
   color: black;
 }
-.footer-bg {
-  background-color: black;
-  color: white;
-  
-}
+
 .picture{
 display: flex; 
 justify-content: center;
@@ -115,4 +113,17 @@ justify-content: center;
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
+}
+.icons {
+  height: 25px;
+  width: 25px;
+}
+.footer-cols{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anchors {
+  color: white;
 }
