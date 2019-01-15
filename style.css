@@ -211,3 +211,9 @@ font-family: 'Baloo Paaji', cursive;
   margin-top: 13px;
   color: cornflowerblue;
 }
+
+@media only screen and (max-width: 500px) {
+  .title {
+    font-size: 20px;
+  }
+}
