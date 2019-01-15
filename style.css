@@ -6,6 +6,7 @@
   display: flex;
  align-content: flex-start;
  color: white;
+ font-family: 'Baloo Paaji', cursive;
 padding-left: 40px;
 padding-top: 23px;
 text-shadow: 0 0 5px black;
@@ -13,6 +14,7 @@ text-shadow: 0 0 5px black;
 .header-buttons {
   display: flex;
   color: white; 
+  font-family: 'Baloo Paaji', cursive;
   font-size: 28px;
   height: 1.5in;
   text-shadow: 0 0 12px black;
@@ -22,12 +24,14 @@ align-items: flex-end;
 }
 .title {
   color: white;
+  font-family: 'Baloo Paaji', cursive;
   font-size: 80px;
 }
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Baloo Paaji', cursive;
   color: black;
 }
 .buffer{
@@ -51,37 +55,40 @@ background-size: cover;
 h1 {
   padding-top: 22px;
   text-align: center;
-  text-shadow: 0 0 10px white;
-  font-family: 'Signika', sans-serif;
+  /* text-shadow: 0 0 10px white; */
+  font-family: 'Baloo Paaji', cursive;
+
 }
 h2 {
   color: black;
+  font-family: 'Baloo Paaji', cursive;
 }
 .badges13 {
   font-size: 1in;
 display: flex;
-/* text-shadow: 0 2px black; */
+
 }
 .badges2 {
   font-size: 1in;
   display: flex;
-  /* text-shadow: 0 2px black; */
+  
 }
 .bg-body {
   background-color: #edeeef;
 }
 
-.footer {
+/* .footer {
 height: 3in;
 background-color: white;
 color: black;
-}
+} */
 h3 {
-  color: black;
+  color: white;
+  font-family: 'Baloo Paaji', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 0 0 10px white;
+  /* text-shadow: 0 0 10px white; */
 }
 .about {
 display: flex; 
@@ -116,13 +123,28 @@ justify-content: center;
 }
 .icons {
   display: flex;
+  justify-content: center;
 font-size: .61in;
+color: cornflowerblue;
+
+}
+.smIcons {
+display: inline;
+font-size: .61in;
+}
+a:link {
+  font-family: 'Baloo Paaji', cursive;
+color: cornflowerblue;
+text-shadow: none;
 }
 .footer-cols{
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
+  /* margin-bottom: 0; */
+
 }
 .anchors {
   color: white;
@@ -137,20 +159,23 @@ padding-top: 20px;
 .links {
   display: flex;
   flex-direction: row;
+  font-family: 'Baloo Paaji', cursive;
   color: white;
   font-size: 25px;
   margin-top: 10px;
 }
+a:hover {
+  color: cornflowerblue;
+}
+
 #aboutMe {
   height: 7.6in;
   background-color: cornflowerblue;
 }
-a:link {
-  text-shadow: 0 0 10px white;
-}
+
 
 .footer {
-  height: 5in;
+  height: 2.3in;
   background-color: cornflowerblue;
 }
 .aboutText {
@@ -170,9 +195,19 @@ align-items: center;
 
 }
 .text {
-font-family: 'Courgette', cursive;
+font-family: 'Baloo Paaji', cursive;
 
 
-
-
+}
+.contacts {
+  font-size: 20px;
+  margin-top: 10px;
+  color: cornflowerblue;
+}
+#contact {
+  background-color: black;
+}
+.connect {
+  margin-top: 13px;
+  color: cornflowerblue;
 }
