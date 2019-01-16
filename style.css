@@ -87,7 +87,7 @@ display: flex;
   
 }
 .bg-body {
-  background-color: #edeeef;
+  background-color: #d9d9d9;
 }
 
 /* .footer {
@@ -259,14 +259,16 @@ text-shadow: 1.5px 1.5px  black;
 .image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  opacity: 1;
 }
 .overlay {
+ 
   position: absolute;
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #d9d9d9;
   overflow: hidden;
   width: 100%;
   height:0;
@@ -275,10 +277,20 @@ text-shadow: 1.5px 1.5px  black;
 .container:hover .overlay {
   bottom: 0;
   height: 100%;
+ 
 }
-.text {
+/* .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+} */
+.texts {
   white-space: nowrap; 
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   overflow: hidden;
