@@ -69,8 +69,8 @@ h1 {
   padding-top: 22px;
   text-align: center;
   font-family: 'Baloo Paaji', cursive;
-color: cornflowerblue;
-text-shadow: 1px 1px black;
+color: black;
+/* text-shadow: 1px 1px black; */
 }
 h2 {
   color: black;
